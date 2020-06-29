@@ -1,0 +1,19 @@
+.journey-form {
+    width: 550px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    .el-form-item {
+      width: 250px;
+      margin-left: 20px;
+        /deep/.el-select {
+            width: 100%;
+        }
+        .el-date-editor{
+          width: 100%;
+        }
+        &.num{
+          width: 100px;
+        }
+    }
+}

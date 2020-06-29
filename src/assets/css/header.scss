@@ -1,0 +1,19 @@
+header {
+  display: flex;
+  justify-content: flex-end;
+    .el-menu.el-menu--horizontal {
+        border: none;
+        .header_v {
+            background-image: url('https://source.qunarzz.com/common/hf/header_v13.png');
+            width: 11px;
+            height: 8px;
+            display: inline-block;
+            background-position: -29px -153px;
+            margin-right: 5px;
+        }
+        a{
+          vertical-align: initial;
+          color: #0084bb
+        }
+    }
+}
